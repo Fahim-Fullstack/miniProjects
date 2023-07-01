@@ -11,11 +11,13 @@
 
 const color = document.querySelector('.btn')
 color.addEventListener('click', changeColor)
+
+
 function changeColor(){
-    
     document.querySelector('body').style.background = rgb()
     const p =document.querySelector('p') 
     p.innerText = rgb ()
+    p.style.color = "white"
 }
 
 

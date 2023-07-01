@@ -11,3 +11,9 @@
 body{
     background: rgb(red, green, blue);
 }
+
+p{
+    color: aliceblue;
+    font-size: large;
+    font-weight: 900;
+}
